@@ -1,0 +1,462 @@
+[{
+		"duration": {
+			"value": "01:50",
+			"type": "absolute"
+		},
+		"sequence": 0,
+		"name": "",
+		"power": {
+			"value": 55,
+			"type": "relative_ftp"
+		},
+		"rib_power": {
+			"value": 55,
+			"type": "relative_ftp"
+		},
+		"DT_RowId": "lvskdv7d",
+		"rib_duration": {
+			"value": "00:59",
+			"type": "absolute"
+		}
+	}, {
+		"duration": {
+			"value": "01:01",
+			"type": "absolute"
+		},
+		"sequence": 1,
+		"name": "",
+		"power": {
+			"value": 65,
+			"type": "relative_ftp"
+		},
+		"rib_power": {
+			"value": 75,
+			"type": "relative_ftp"
+		},
+		"DT_RowId": "sxvtins9",
+		"rib_duration": {
+			"value": "01:33",
+			"type": "absolute"
+		}
+	}, {
+		"duration": {
+			"value": "01:42",
+			"type": "absolute"
+		},
+		"sequence": 2,
+		"name": "",
+		"power": {
+			"value": 85,
+			"type": "relative_ftp"
+		},
+		"rib_power": {
+			"value": 100,
+			"type": "relative_ftp"
+		},
+		"DT_RowId": "fl1fwzwf",
+		"rib_duration": {
+			"value": "00:57",
+			"type": "absolute"
+		}
+	}, {
+		"duration": {
+			"value": "01:00",
+			"type": "absolute"
+		},
+		"sequence": 3,
+		"name": "",
+		"power": {
+			"value": 45,
+			"type": "relative_ftp"
+		},
+		"rib_power": {
+			"value": 107,
+			"type": "relative_ftp"
+		},
+		"DT_RowId": "8rjtya5f",
+		"rib_duration": {
+			"value": "00:45",
+			"type": "absolute"
+		}
+	}, {
+		"duration": {
+			"value": "01:00",
+			"type": "absolute"
+		},
+		"sequence": 4,
+		"name": "",
+		"power": {
+			"value": 45,
+			"type": "relative_ftp"
+		},
+		"rib_power": {
+			"value": 129,
+			"type": "relative_ftp"
+		},
+		"DT_RowId": "o6pbb1ue",
+		"rib_duration": {
+			"value": "02:00",
+			"type": "absolute"
+		}
+	}, {
+		"duration": {
+			"value": "02:00",
+			"type": "absolute"
+		},
+		"sequence": 5,
+		"name": "",
+		"power": {
+			"value": 45,
+			"type": "relative_ftp"
+		},
+		"rib_power": {
+			"value": 129,
+			"type": "relative_ftp"
+		},
+		"DT_RowId": "lmiop42o",
+		"rib_duration": {
+			"value": "01:45",
+			"type": "absolute"
+		}
+	}, {
+		"duration": {
+			"value": "01:45",
+			"type": "absolute"
+		},
+		"sequence": 6,
+		"name": "",
+		"power": {
+			"value": 45,
+			"type": "relative_ftp"
+		},
+		"rib_power": {
+			"value": 129,
+			"type": "relative_ftp"
+		},
+		"DT_RowId": "8vzmyryn",
+		"rib_duration": {
+			"value": "01:30",
+			"type": "absolute"
+		}
+	}, {
+		"duration": {
+			"value": "01:30",
+			"type": "absolute"
+		},
+		"sequence": 7,
+		"name": "",
+		"power": {
+			"value": 45,
+			"type": "relative_ftp"
+		},
+		"rib_power": {
+			"value": 129,
+			"type": "relative_ftp"
+		},
+		"DT_RowId": "gk6mhpwp",
+		"rib_duration": {
+			"value": "01:15",
+			"type": "absolute"
+		}
+	}, {
+		"duration": {
+			"value": "01:15",
+			"type": "absolute"
+		},
+		"sequence": 8,
+		"name": "",
+		"power": {
+			"value": 45,
+			"type": "relative_ftp"
+		},
+		"rib_power": {
+			"value": 136,
+			"type": "relative_ftp"
+		},
+		"DT_RowId": "wd7ah9dp",
+		"rib_duration": {
+			"value": "01:00",
+			"type": "absolute"
+		}
+	}, {
+		"duration": {
+			"value": "01:00",
+			"type": "absolute"
+		},
+		"sequence": 9,
+		"name": "",
+		"power": {
+			"value": 45,
+			"type": "relative_ftp"
+		},
+		"rib_power": {
+			"value": 136,
+			"type": "relative_ftp"
+		},
+		"DT_RowId": "2r0eiq6z",
+		"rib_duration": {
+			"value": "00:45",
+			"type": "absolute"
+		}
+	}, {
+		"duration": {
+			"value": "00:45",
+			"type": "absolute"
+		},
+		"sequence": 10,
+		"name": "",
+		"power": {
+			"value": 45,
+			"type": "relative_ftp"
+		},
+		"rib_power": {
+			"value": 149,
+			"type": "relative_ftp"
+		},
+		"DT_RowId": "ki5jab1u",
+		"rib_duration": {
+			"value": "00:30",
+			"type": "absolute"
+		}
+	}, {
+		"duration": {
+			"value": "00:30",
+			"type": "absolute"
+		},
+		"sequence": 11,
+		"name": "",
+		"power": {
+			"value": 45,
+			"type": "relative_ftp"
+		},
+		"rib_power": {
+			"value": 149,
+			"type": "relative_ftp"
+		},
+		"DT_RowId": "qmxkztjj",
+		"rib_duration": {
+			"value": "00:15",
+			"type": "absolute"
+		}
+	}, {
+		"duration": {
+			"value": "03:59",
+			"type": "absolute"
+		},
+		"sequence": 12,
+		"name": "",
+		"power": {
+			"value": 45,
+			"type": "relative_ftp"
+		},
+		"rib_power": {
+			"value": 129,
+			"type": "relative_ftp"
+		},
+		"DT_RowId": "hokjgmmz",
+		"rib_duration": {
+			"value": "02:01",
+			"type": "absolute"
+		}
+	}, {
+		"duration": {
+			"value": "02:00",
+			"type": "absolute"
+		},
+		"sequence": 13,
+		"name": "",
+		"power": {
+			"value": 45,
+			"type": "relative_ftp"
+		},
+		"rib_power": {
+			"value": 129,
+			"type": "relative_ftp"
+		},
+		"DT_RowId": "jukod4la",
+		"rib_duration": {
+			"value": "01:45",
+			"type": "absolute"
+		}
+	}, {
+		"duration": {
+			"value": "01:45",
+			"type": "absolute"
+		},
+		"sequence": 14,
+		"name": "",
+		"power": {
+			"value": 45,
+			"type": "relative_ftp"
+		},
+		"rib_power": {
+			"value": 129,
+			"type": "relative_ftp"
+		},
+		"DT_RowId": "infn7lym",
+		"rib_duration": {
+			"value": "01:30",
+			"type": "absolute"
+		}
+	}, {
+		"duration": {
+			"value": "01:30",
+			"type": "absolute"
+		},
+		"sequence": 15,
+		"name": "",
+		"power": {
+			"value": 45,
+			"type": "relative_ftp"
+		},
+		"rib_power": {
+			"value": 129,
+			"type": "relative_ftp"
+		},
+		"DT_RowId": "143mkgtr",
+		"rib_duration": {
+			"value": "01:15",
+			"type": "absolute"
+		}
+	}, {
+		"duration": {
+			"value": "01:15",
+			"type": "absolute"
+		},
+		"sequence": 16,
+		"name": "",
+		"power": {
+			"value": 45,
+			"type": "relative_ftp"
+		},
+		"rib_power": {
+			"value": 136,
+			"type": "relative_ftp"
+		},
+		"DT_RowId": "0avsyy0s",
+		"rib_duration": {
+			"value": "01:00",
+			"type": "absolute"
+		}
+	}, {
+		"duration": {
+			"value": "01:00",
+			"type": "absolute"
+		},
+		"sequence": 17,
+		"name": "",
+		"power": {
+			"value": 45,
+			"type": "relative_ftp"
+		},
+		"rib_power": {
+			"value": 136,
+			"type": "relative_ftp"
+		},
+		"DT_RowId": "ekcq2awi",
+		"rib_duration": {
+			"value": "00:45",
+			"type": "absolute"
+		}
+	}, {
+		"duration": {
+			"value": "00:45",
+			"type": "absolute"
+		},
+		"sequence": 18,
+		"name": "",
+		"power": {
+			"value": 45,
+			"type": "relative_ftp"
+		},
+		"rib_power": {
+			"value": 149,
+			"type": "relative_ftp"
+		},
+		"DT_RowId": "o27njd61",
+		"rib_duration": {
+			"value": "00:30",
+			"type": "absolute"
+		}
+	}, {
+		"duration": {
+			"value": "00:30",
+			"type": "absolute"
+		},
+		"sequence": 19,
+		"name": "",
+		"power": {
+			"value": 45,
+			"type": "relative_ftp"
+		},
+		"rib_power": {
+			"value": 149,
+			"type": "relative_ftp"
+		},
+		"DT_RowId": "w28ogjew",
+		"rib_duration": {
+			"value": "00:30",
+			"type": "absolute"
+		}
+	}, {
+		"duration": {
+			"value": "00:30",
+			"type": "absolute"
+		},
+		"sequence": 20,
+		"name": "",
+		"power": {
+			"value": 45,
+			"type": "relative_ftp"
+		},
+		"rib_power": {
+			"value": 149,
+			"type": "relative_ftp"
+		},
+		"DT_RowId": "j22uclo6",
+		"rib_duration": {
+			"value": "00:30",
+			"type": "absolute"
+		}
+	}, {
+		"duration": {
+			"value": "00:30",
+			"type": "absolute"
+		},
+		"sequence": 21,
+		"name": "",
+		"power": {
+			"value": 45,
+			"type": "relative_ftp"
+		},
+		"rib_power": {
+			"value": 149,
+			"type": "relative_ftp"
+		},
+		"DT_RowId": "thdt6yge",
+		"rib_duration": {
+			"value": "00:15",
+			"type": "absolute"
+		}
+	}, {
+		"duration": {
+			"value": "03:17",
+			"type": "absolute"
+		},
+		"sequence": 22,
+		"name": "",
+		"power": {
+			"value": 45,
+			"type": "relative_ftp"
+		},
+		"rib_power": {
+			"value": 0,
+			"type": "absolute"
+		},
+		"DT_RowId": "o3bwp747",
+		"rib_duration": {
+			"value": "00:00",
+			"type": "absolute"
+		}
+	}
+]
