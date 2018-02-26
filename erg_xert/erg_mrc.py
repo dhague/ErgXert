@@ -9,17 +9,16 @@ class ErgMrcFile:
     logger = logging.getLogger('ErgMrcFile')
 
     def is_erg_mrc_file(filename: str):
-        return filename.lower().endswith(".erg") or filename.lower().endswith(".mrc")
+        try:
+            file_type = FileType.from_filename(filename)
+        except TypeError:
+            return False
+
+        return file_type in [FileType.ERG, FileType.MRC]
 
     def load_from_file(filename: str):
         logger = ErgMrcFile.logger
-        if filename.lower().endswith(".erg"):
-            file_type = FileType.ERG
-        elif filename.lower().endswith(".mrc"):
-            file_type = FileType.MRC
-        else:
-            raise TypeError("ERG/MRC files must end with .erg. or .mrc")
-
+        file_type = FileType.from_filename(filename)
         ftpMode = file_type == FileType.MRC
         ftp = 100
         with open(filename, 'r') as f:
@@ -37,32 +36,33 @@ class ErgMrcFile:
 
         # Get the workout data from the COURSE DATA section
         workout_data: List[WorkoutStep] = []
-        more_data = True
 
         if ftpMode:
             xert_type = "relative_ftp"
         else:
             xert_type = "absolute"
 
-        while more_data:
+        while lines:
             line1 = lines.pop(0)
+            # Stop when we get to the end of the data
             if line1 == "[END COURSE DATA]":
-                more_data = False;
-                continue;
+                break;
             line2 = lines.pop(0)
             line1 = line1.split()
             line2 = line2.split()
-            if line1[1] != line2[1]:
-                logger.warning(
+            power1 = line1[1]
+            power2 = line2[1]
+            if power1 != power2:
+                logger.error(
                     "Error: Xert workout steps cannot do power ramps, so pairs of lines must have identical power")
-                logger.warning("First line power: " + line1[1] + ", second line power: " + line2[1])
-                logger.warning("Skipping interval")
+                logger.error("First line power: " + power1 + ", second line power: " + power2)
+                logger.error("Skipping interval")
                 continue;
             else:
                 if ftpMode:
-                    value = int(100 * float(line1[1]) / ftp)
+                    value = int(100 * float(power1) / ftp)
                 else:
-                    value = int(line1[1])
+                    value = int(power1)
             duration = float(line2[0]) - float(line1[0])
             mins = int(duration)
             secs = round((duration - mins) * 60)

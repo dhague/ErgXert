@@ -53,11 +53,10 @@ class Xert:
     def workout_from_steps(self, workout_name, workout_data: List[WorkoutStep]):
         # Create a dict matching Xert's JSON structure for intervals
         rownum = 0
-        more_data = True
         workout = Xert.Workout()
         workout.name = workout_name
 
-        while more_data:
+        while workout_data:
             row = {}
             row["sequence"] = rownum
             rownum = rownum + 1
@@ -76,7 +75,6 @@ class Xert:
                 if valid_row:
                     row["rib_power"] = {"value": 0, "type": "absolute"}
                     row["rib_duration"] = {"value": "00:00", "type": "absolute"}
-                more_data = False
             if valid_row:
                 row["interval_count"] = "1"
                 workout.rows.append(row)
