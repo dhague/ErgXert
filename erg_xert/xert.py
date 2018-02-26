@@ -1,3 +1,5 @@
+import random
+import string
 from html.parser import HTMLParser
 import json
 import os
@@ -77,6 +79,7 @@ class Xert:
                     row["rib_duration"] = {"value": "00:00", "type": "absolute"}
             if valid_row:
                 row["interval_count"] = "1"
+                row["DT_RowId"] = ''.join(random.choices(string.ascii_lowercase + string.digits, k=8))
                 workout.rows.append(row)
         return workout
 
