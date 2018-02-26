@@ -101,5 +101,6 @@ class RpeFile:
             duration = time2 - time1
             mins = int(duration.total_seconds()/60)
             secs = int(duration.total_seconds()) % 60
-            workout_data.append(WorkoutStep(xert_num, mins, secs, xert_type))
+            description = line1[0]
+            workout_data.append(WorkoutStep(xert_num, mins, secs, xert_type, description))
         return workout_name, workout_data

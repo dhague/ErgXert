@@ -4,4 +4,4 @@ class WorkoutStep:
         self.mins = mins
         self.secs = secs
         self.type = type
-        self.description = ""
+        self.description = description

@@ -68,8 +68,14 @@ class Xert:
                 step = workout_data.pop(0)
                 row["power"] = {"value": step.value, "type": step.type}
                 row["duration"] = {"value": str.format("{:02}:{:02}", step.mins, step.secs), "type": "absolute"}
+                if step.description != "":
+                    row["name"] = step.description
                 valid_row = True
                 step = workout_data.pop(0)
+                # If the rest interval has a description we need to start a new step
+                if step.description != "":
+                    workout_data.insert(0, step)
+                    raise IndexError
                 row["rib_power"] = {"value": step.value, "type": step.type}
                 row["rib_duration"] = {"value": str.format("{:02}:{:02}", step.mins, step.secs),
                                        "type": "absolute"}
